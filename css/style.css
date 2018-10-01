@@ -1,11 +1,3 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
 nav ul a,
 nav .brand-logo {
   background-color: #26a69a;
@@ -75,3 +67,26 @@ footer.page-footer {
 form {
   padding-left: 50px;
 }
+
+.modal-image {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel .carousel-item img {
+  width: 230%;
+  height: 170%;
+  margin-left: -70%;
+}
+
+.carousel {
+  margin-top: -20%;
+  padding-top: 30%;
+  max-height: 420px;
+}
+
+.container-tall {
+  height: 82vh;
+}
+
