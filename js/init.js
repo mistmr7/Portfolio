@@ -47,12 +47,10 @@ $(document).ready(function (){
   $('.carousel').carousel({
     dist:-100,
     padding: 100,
-    numVisible: 10,
+    numVisible: 5,
     shift: 0,
     indicators: true
   });
   $('.modal').modal();
-  
-  
 })
 
